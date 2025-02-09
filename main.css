@@ -1,0 +1,66 @@
+:root {
+    --black: #3c3c3d;
+    --white: #edebebd6;
+}
+
+body {
+    background: var(--bg);
+    background-image: var(--arw);
+    background-size: 100%;
+    color: var(--fontColor);
+    margin-left: 20%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:link {
+    color:rgb(255, 57, 57);
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: square;
+}
+
+.list {
+    list-style: circle;
+}
+
+#msg {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.light-theme {
+    --arw: url("./arrow.gif");
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --arw: url("./arrowinv.gif");
+    --bg: var(--black);
+    --fontColor: var(--white);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+.btn {
+    position: relative;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+
+.btn:hover {
+    background-color:#969696;
+    transition: 0.2s;
+}
