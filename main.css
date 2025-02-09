@@ -5,8 +5,8 @@
 
 body {
     background: var(--bg);
-    background-image: var(--arw);
     background-size: 100%;
+    background-image: var(--arw);
     color: var(--fontColor);
     margin-left: 20%;
     font-family: 'Courier New', Courier, monospace;
